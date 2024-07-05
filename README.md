@@ -32,7 +32,7 @@ This is a repository for course project AutonomousQuadruped in simulation.
 
 5. In the rviz window, you'll see a thin green line (the path designed by the global path planner), a solid orange line (the actual trajectory of the robot) and a small dynamic red dot (the current target waypoint of the robot dog). Note that because the robot is unfamiliar with the map at the beginning, the globally planned path may be unreasonable, but as the robot moves forwards and the occupancy map is gradually improved, the path will become reasonable under most cases. Besides, the current target point of the robot may be obtained based on the result of path planning at some previous moment, which means that it may not be on the currently planned path.
 
-6. You are expected to see something as this [video](https://drive.google.com/file/d/1SIjrDl93RdoaB7c93GNVHmsPp5w93V0a/view?usp=sharing).
+6. You are expected to see something as this [video](https://drive.google.com/file/d/1Ev4BGYuUePXea4E4gV0mWkTVYtVBBhBW/view).
 
 ### Tips
 - Our program will dynamically generate point cloud, occupancy grid and perform path planning in real time, which places high demands on computer computer performance. Therefore, it is **highly recommended** to run the project on a **native** Ubuntu machine rather than a virtual machine. If the program is overloaded while running (as you may see in the first terminal), try to reduce the frequency of costmap updates in the `/src/simulation/param/global_costmap_params.yaml` (line 5 and 6).  However, this may have an impact on the robot's performance.
