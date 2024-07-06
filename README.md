@@ -1,5 +1,5 @@
 # Awesome Dog 
-This is a repository for course project AutonomousQuadruped in simulation.
+This is a repository for course project quadruped robot in simulation.
 
 ### Getting Started  
 
